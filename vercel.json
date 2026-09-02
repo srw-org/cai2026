@@ -1,0 +1,18 @@
+{
+  "buildCommand": "yarn build",
+  "outputDirectory": "public",
+  "framework": null,
+  "redirects": [
+    {
+      "source": "/",
+      "destination": "/events/cai2026/",
+      "permanent": false
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/images/:path*",
+      "destination": "/events/cai2026/images/:path*"
+    }
+  ]
+}

@@ -1,0 +1,160 @@
+.banner {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.subtitle {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 12px;
+  color: #334;
+}
+
+.highlightList {
+  margin: 8px 0 4px;
+  padding-left: 22px;
+  display: grid;
+  gap: 10px;
+}
+
+.highlightList li {
+  line-height: 1.55;
+  color: #2a3340;
+}
+
+.highlightList li strong {
+  color: #1d2b4a;
+}
+
+.paperList {
+  display: grid;
+  gap: 12px;
+}
+
+.paperCard {
+  border: 1px solid #e1e6ef;
+  border-radius: 10px;
+  padding: 14px 16px;
+  background: #ffffff;
+}
+
+.paperTitle {
+  font-weight: 600;
+  font-size: 16px;
+  margin-bottom: 6px;
+}
+
+.paperAuthors {
+  color: #556;
+  font-size: 14px;
+}
+
+.infoGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
+  padding: 20px 22px;
+  background: linear-gradient(135deg, #f4f7fd 0%, #eef2fa 100%);
+  border: 1px solid #e3e9f5;
+  border-radius: 12px;
+}
+
+.infoLabel {
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 0.06em;
+  color: #667;
+  margin-bottom: 4px;
+}
+
+.infoValue {
+  font-size: 15px;
+  color: #223;
+}
+
+.peopleGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 16px;
+}
+
+.personCard {
+  border: 1px solid #e1e6ef;
+  border-radius: 10px;
+  padding: 12px;
+  background: #ffffff;
+  text-align: center;
+}
+
+.personPhoto {
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.personName {
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.personAffiliation {
+  color: #556;
+  font-size: 14px;
+}
+
+.agendaList {
+  display: grid;
+  gap: 12px;
+}
+
+.agendaItem {
+  display: flex;
+  gap: 16px;
+  border: 1px solid #e1e6ef;
+  border-radius: 10px;
+  padding: 12px;
+  background: #ffffff;
+}
+
+.agendaTime {
+  min-width: 110px;
+  font-weight: 600;
+  color: #2b4acb;
+}
+
+.agendaContent {
+  flex: 1;
+}
+
+.agendaTitle {
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.agendaDescription {
+  color: #556;
+  font-size: 14px;
+}
+
+.sponsorGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 16px;
+  align-items: center;
+}
+
+.sponsorCard {
+  text-align: center;
+  padding: 10px;
+}
+
+.sponsorCard img {
+  max-width: 140px;
+  max-height: 60px;
+  object-fit: contain;
+}
