@@ -2,6 +2,11 @@
 # yarn lockfile v1
 
 
+"@allenai/varnish@^3.0.12":
+  version "3.0.12"
+  resolved "https://registry.yarnpkg.com/@allenai/varnish/-/varnish-3.0.12.tgz#48485de2699df72c7d57f2a0177667ab5a50961c"
+  integrity sha512-UOpYGwJTnVcB1unA9sL615i3YVFnjLv8wK2BzyBVy9yWNFkScy0GDVXwN/E2lr+27n1JM1uT8tF5QMFVSwwRDQ==
+
 "@ant-design/colors@^6.0.0":
   version "6.0.0"
   resolved "https://registry.yarnpkg.com/@ant-design/colors/-/colors-6.0.0.tgz#9b9366257cffcc47db42b9d0203bb592c13c0298"
