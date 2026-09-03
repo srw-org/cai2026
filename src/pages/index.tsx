@@ -9,23 +9,23 @@ import data from "../content/workshops/data";
 
 const galleryPhotos = [
   {
-    src: "/images/data/gallery/1-session-group.jpg",
+    src: "/images/cai2026/gallery/1-session-group.jpg",
     caption: "Organizers, speakers, and attendees at the AI x Space Exploration session.",
   },
   {
-    src: "/images/data/gallery/2-talk-mapping.jpg",
+    src: "/images/cai2026/gallery/2-talk-mapping.jpg",
     caption: "Tiberiu-Ioan Szatmari presenting Federated Multi-Agent Mapping for Planetary Exploration.",
   },
   {
-    src: "/images/data/gallery/3-audience-astra.jpg",
+    src: "/images/cai2026/gallery/3-audience-astra.jpg",
     caption: "Bethany P. Theiling presenting on Objective-Based AI for spaceflight.",
   },
   {
-    src: "/images/data/gallery/4-social-tea.jpg",
+    src: "/images/cai2026/gallery/4-social-tea.jpg",
     caption: "Continuing the conversation over tea in Granada.",
   },
   {
-    src: "/images/data/gallery/5-social-dinner.jpg",
+    src: "/images/cai2026/gallery/5-social-dinner.jpg",
     caption: "Speakers and organizers gathering after the session.",
   },
 ];
